@@ -1,0 +1,15 @@
+allprojects  {
+  group = 'org.activityinfo'
+}
+
+subprojects {
+
+  
+  repositories {
+    mavenLocal()
+    maven { url "http://nexus.bedatadriven.com/content/groups/public" }
+  }
+
+
+  
+}

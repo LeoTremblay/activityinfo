@@ -1,0 +1,6 @@
+rootProject.name = 'activityinfo'
+
+include "site"
+
+project(':site').projectDir = "$rootDir/site" as File
+
